@@ -1,23 +1,36 @@
-<style>
-.menu {
-  list-style: none;      /* เอาจุดหน้ารายการออก */
-  padding: 0;
-  margin: 0;
-  width: 200px;
-}
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>ตัวอย่าง CSS Lists</title>
 
-.menu li {
-  padding: 10px;
-  border-bottom: 1px solid #ccc;
-}
+    <style>
+        /* CSS Lists */
+        ul.css-list {
+            list-style-type: square;   /* เปลี่ยนสัญลักษณ์หน้ารายการ */
+            list-style-position: inside; /* จุดอยู่ด้านใน */
+            background-color: #f2f2f2;
+            padding: 15px;
+            width: 300px;
+        }
 
-.menu li:hover {
-  background-color: #f0f0f0;
-}
-</style>
+        ul.css-list li {
+            color: #333;
+            padding: 5px 0;
+        }
+    </style>
+</head>
+<body>
 
-<ul class="menu">
-  <li>หน้าแรก</li>
-  <li>เกี่ยวกับเรา</li>
-  <li>ติดต่อ</li>
-</ul>
+    <h1>CSS Lists</h1>
+    <p>ตัวอย่างการตกแต่งรายการ (List) ด้วย CSS</p>
+
+    <ul class="css-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+    </ul>
+
+</body>
+</html>
